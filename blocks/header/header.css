@@ -1,0 +1,11 @@
+.header {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 11px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: #ECEBE8;
+  border-bottom: 1px solid #242424;
+  z-index: 3;
+}
