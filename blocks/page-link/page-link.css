@@ -1,0 +1,22 @@
+
+
+/* Общие стили для ссылки (меняйте в модификаторах бордеры, как в макете)  */
+
+.page__link {
+    text-decoration: none;
+    color: #242424;
+    margin: 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0;
+    max-height: 32px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    color: #242424;
+    text-align: center;
+    max-width: min-content;
+    white-space: nowrap;
+}
