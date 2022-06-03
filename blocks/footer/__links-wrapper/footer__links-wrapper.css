@@ -1,0 +1,6 @@
+.footer__links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 85px;
+}
