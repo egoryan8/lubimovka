@@ -2,5 +2,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 85px;
+/*     column-gap: 85px; */
+    width: 37.84722222222222vw;
 }
