@@ -1,5 +1,6 @@
 .back-button {
   display: inline-block;
+  font-size: 0;
   width: fit-content;
   text-decoration: none;
   color: #242424;
