@@ -2,7 +2,7 @@
 
 /* Общие стили для ссылки (меняйте в модификаторах бордеры, как в макете)  */
 
-.page__link {
+.page-link {
     text-decoration: none;
     color: #242424;
     margin: 0;
