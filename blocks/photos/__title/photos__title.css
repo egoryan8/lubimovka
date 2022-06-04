@@ -1,0 +1,13 @@
+.photos__title {
+    width: 568px;
+    height: 80px;
+    font-family: 'Neue Machina', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    margin: 0 auto 40px 362px;
+    padding: 0;
+}
