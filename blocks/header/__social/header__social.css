@@ -1,0 +1,9 @@
+.header__social {
+  padding: 0 26px 0 24px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  border-right: 1px solid #242424;
+}

@@ -1,0 +1,11 @@
+.header__donate {
+  margin: 0 0 0 19px;
+  max-height: 57px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #242424;
+}

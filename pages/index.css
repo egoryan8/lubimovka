@@ -1,0 +1,30 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__social/header__social.css);
+@import url(../blocks/header/__donate/header__donate.css);
+@import url(../blocks/icon-plus/icon-plus.css);
+@import url(../blocks/page-link/page-link.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__grid-wrapper/intro__grid-wrapper.css);
+@import url(../blocks/intro/__img/intro__img.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__date/intro__date.css);
+@import url(../blocks/intro/__tickets/intro__tickets.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/back-button/back-button.css);
+@import url(../blocks/arrow-left/arrow-left.css);
+@import url(../blocks/arrow-right/arrow-right.css);
+
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__image/photos__image.css);
+@import url(../blocks/photos/__title/photos__title.css);
+@import url(../blocks/photos/__wrapper/photos__wrapper.css);
