@@ -1,6 +1,6 @@
 .video-player {
   display: flex;
   width: 96%;
-  height: 33%;
+  height: 42vh;
   position: relative;
 }
