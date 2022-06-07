@@ -1,3 +1,4 @@
 .footer__copy-string_size-s {
-    padding-right: 30px;
+    padding: 0 30px 0 0;
+    max-width: 180px;
 }
