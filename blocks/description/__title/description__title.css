@@ -10,11 +10,12 @@
   margin: 0;
 }
 
-.description__title:first-of-type {
+.description__title:first-child {
   padding-right: 16px;
   border-right: 1px solid #242424;
 }
 
-.description__title:last-of-type {
+.description__title:last-child {
   padding-left: 16px;
+  border: none;
 }
