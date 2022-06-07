@@ -1,0 +1,5 @@
+.footer__navigation-wrapper {
+    display: flex;
+    margin: 0 115px 0 210px;
+    justify-content: space-between;
+}

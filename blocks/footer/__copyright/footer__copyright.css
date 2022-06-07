@@ -1,0 +1,5 @@
+.footer__copyright {
+    display: flex;
+    column-gap: 32px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,5 @@
+.footer__designers {
+    display: flex;
+    column-gap: 4px;
+    max-width: 190px;
+}

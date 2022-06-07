@@ -1,0 +1,7 @@
+.footer__authors-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 92px 0 207px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}

@@ -1,0 +1,5 @@
+.footer__authors-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}

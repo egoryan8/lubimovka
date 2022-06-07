@@ -1,0 +1,7 @@
+.footer__links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 38vw;
+    max-width: 540px;
+}
