@@ -31,6 +31,12 @@
 @import url(../blocks/photos/__title/photos__title.css);
 @import url(../blocks/photos/__wrapper/photos__wrapper.css);
 
+@import url(../blocks/video-player/video-player.css);
+@import url(../blocks/video-player/__cover/video-player__cover.css);
+@import url(../blocks/video-player/__iframe/video-player__iframe.css);
+@import url(../blocks/video-player/__play-start/video-player__play-start.css);
+@import url(../blocks/video-player/__cover/_diactive/video-player__cover_diactive.css);
+
 /* FOOTER IMPORTS */
 
 @import url(../blocks/footer/footer.css);
@@ -59,3 +65,13 @@
 @import url(../blocks/footer/__images/_type/footer__images_type_s.css);
 @import url(../blocks/footer/__images/_type/footer__images_type_t.css);
 @import url(../blocks/footer/__images/_type/footer__images_type_fr.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__column/description__column.css);
+@import url(../blocks/description/__columns-wrapper/description__columns-wrapper.css);
+@import url(../blocks/description/__title-container/description__title-container.css);
+@import url(../blocks/description/__organisators/description__organisators.css);
+@import url(../blocks/description/__name/description__name.css);
+@import url(../blocks/description/__job/description__job.css);
+@import url(../blocks/description/__paragraph/description__paragraph.css);
+@import url(../blocks/description/__text-wrapper/description__text-wrapper.css);
+@import url(../blocks/description/__title/description__title.css);

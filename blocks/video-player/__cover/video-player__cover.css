@@ -1,0 +1,13 @@
+.video-player__cover {
+  background-image: url(../../../images/iframe-girl-in-bath.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}

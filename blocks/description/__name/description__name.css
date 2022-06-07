@@ -1,0 +1,17 @@
+.description__name {
+  max-width: 420px;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss01' on;
+  color: #242424;
+  margin:0 0 30px 24px;
+  padding: 0;
+}
+
+.description__name:last-of-type {
+  margin-bottom: 0;
+}
