@@ -1,0 +1,18 @@
+.photos__wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .photos__wrapper {
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .photos__wrapper {
+        grid-template-columns: repeat(2, 206px);
+    }
+}

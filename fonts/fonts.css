@@ -4,7 +4,6 @@
       url('./Neue-Machina-Regular/PPNeueMachina-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -13,4 +12,4 @@
       url('./Formular-Light/formular-light.woff2') format('woff');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+} 

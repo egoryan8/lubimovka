@@ -1,0 +1,24 @@
+.intro__tickets {
+  margin-top: 16px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 138%;
+  box-sizing: border-box;
+  padding: 16px 20px 18px 16px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  color: inherit;
+  border: 1px solid #000000;
+  transition: .5s ease;
+}
+
+.intro__tickets:hover {
+  background-color: #242424;
+  color: #ECEBE8;
+}
+
+.intro__tickets:hover .arrow-right {
+  background-image: url(../../../images/arrow-right-hover.svg);
+}

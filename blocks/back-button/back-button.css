@@ -1,0 +1,24 @@
+.back-button {
+  display: inline-block;
+  font-size: 0;
+  width: fit-content;
+  text-decoration: none;
+  color: #242424;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 88%;
+  text-align: right;
+  padding: 9px 0 9px 10px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transition: .5s ease;
+}
+
+.back-button:hover {
+  background-color: #242424;
+  color: #ECEBE8;
+}
+
+.back-button:hover .arrow-left {
+  background-image: url(../../images/arrow-left-hover.svg);
+}
