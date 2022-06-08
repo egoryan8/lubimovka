@@ -1,0 +1,29 @@
+.intro__grid-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__grid-column:first-of-type {
+  padding-left: 120px;
+}
+
+@media (max-width: 1200px) {
+  .intro__grid-column:first-of-type {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  .intro__grid-column:first-of-type {
+    padding-left: 0;
+  }
+  .intro__grid-column {
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro__grid-column {
+    align-items: flex-start;
+  }
+}

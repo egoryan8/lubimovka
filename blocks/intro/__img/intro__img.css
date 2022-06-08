@@ -1,3 +1,11 @@
 .intro__img {
   width: 100%;
 }
+
+@media (max-width: 500px) {
+  .intro__img {
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+}

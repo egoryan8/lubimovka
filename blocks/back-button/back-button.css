@@ -11,12 +11,13 @@
   padding: 9px 0 9px 10px;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
-  transition: .5s ease;
+  transition: 0.5s ease;
+  margin-left: 30px;
 }
 
 .back-button:hover {
   background-color: #242424;
-  color: #ECEBE8;
+  color: #ecebe8;
 }
 
 .back-button:hover .arrow-left {
