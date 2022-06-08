@@ -1,0 +1,21 @@
+.description__title {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 114%;
+  letter-spacing: -0.01em;
+  color: #242424;
+  padding: 0;
+  margin: 0;
+}
+
+.description__title:first-child {
+  padding-right: 16px;
+  border-right: 1px solid #242424;
+}
+
+.description__title:last-child {
+  padding-left: 16px;
+  border: none;
+}
