@@ -11,14 +11,26 @@
   justify-content: space-between;
   color: inherit;
   border: 1px solid #000000;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .intro__tickets:hover {
   background-color: #242424;
-  color: #ECEBE8;
+  color: #ecebe8;
 }
 
 .intro__tickets:hover .arrow-right {
   background-image: url(../../../images/arrow-right-hover.svg);
+}
+
+@media (max-width: 500px) {
+  .intro__tickets {
+    margin-left: 89px;
+  }
+}
+
+@media (max-width: 380px) {
+  .intro__tickets {
+    margin-left: 46px;
+  }
 }
