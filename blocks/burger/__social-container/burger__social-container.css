@@ -1,0 +1,8 @@
+.burger__social-container {
+    display: grid;
+    grid-template: "ytube ytube"
+    "fb inst"
+    "vk tlgrm";
+    max-width: 767px;
+    margin: 0 0 32px 0;
+}

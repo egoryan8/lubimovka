@@ -1,0 +1,7 @@
+.burger__content {
+    max-width: 767px;
+    height: 100%;
+    background: #ECEBE8;
+    position: relative;
+    margin: 0 auto;
+}

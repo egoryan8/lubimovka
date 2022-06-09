@@ -1,0 +1,10 @@
+.burger {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #ECEBE8;
+    top: 69px;
+    left: 0;
+    overflow: auto;
+    display: none;
+}

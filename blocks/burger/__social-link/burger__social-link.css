@@ -1,0 +1,43 @@
+.burger__social-link {
+    text-decoration: none;
+    color: #242424;
+    border: 1px solid #242424;
+    padding: 16px 20px 18px 16px;
+    display: flex;
+    justify-content: space-between;
+    transition: .5s ease;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+
+.burger__social-link:nth-of-type(1) {
+    grid-area: ytube;
+    border-bottom: none;
+}
+
+.burger__social-link:nth-of-type(2) {
+    grid-area: fb;
+    border-bottom: none;
+    border-right: none;
+}
+
+.burger__social-link:nth-of-type(3) {
+    grid-area: vk;
+    border-right: none;
+}
+
+.burger__social-link:nth-of-type(4) {
+    grid-area: inst;
+    border-bottom: none;
+}
+
+.burger__social-link:nth-of-type(5) {
+    grid-area: tlgrm;
+}
+
+.burger__social-link:hover {
+    color: white;
+    background-color: #242424;
+}

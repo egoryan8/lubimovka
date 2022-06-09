@@ -1,0 +1,15 @@
+.burger__arrow {    
+    background-image: url(../../../images/arrow-right.svg);
+    width: 21px;
+    height: 13px;
+    align-self: center;
+    transition: .5s ease;
+}
+
+.burger__share-link:hover .burger__arrow {
+    background-image: url(../../../images/arrow-right-hover.svg);
+}
+
+.burger__social-link:hover .burger__arrow {
+    background-image: url(../../../images/arrow-right-hover.svg);
+}

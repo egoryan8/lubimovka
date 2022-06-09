@@ -1,0 +1,23 @@
+.burger__share-link {
+    max-width: 361px;
+    text-decoration: none;
+    color: #242424;
+    border: 1px solid #242424;
+    padding: 16px 20px 18px 16px;
+    display: flex;
+    justify-content: space-between;
+    transition: .5s ease;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+
+.burger__share-link:first-child {
+    border-bottom: none;
+}
+
+.burger__share-link:hover {
+    color: white;
+    background-color: #242424;
+}

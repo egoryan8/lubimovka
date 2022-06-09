@@ -1,0 +1,6 @@
+.burger__share-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 72px 55px;
+    max-width: 361px;
+}
