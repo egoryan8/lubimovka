@@ -6,3 +6,24 @@
   letter-spacing: -0.01em;
   max-width: 417px;
 }
+
+@media (max-width: 980px) {
+  .intro__subtitle {
+    margin: 0 0 80px;
+    max-width: 304px;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro__subtitle {
+    padding-left: 86px;
+    margin: 0 0 31px;
+  }
+}
+
+@media (max-width: 380px) {
+  .intro__subtitle {
+    padding-left: 46px;
+    margin: 0 0 31px;
+  }
+}
