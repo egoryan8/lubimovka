@@ -2,3 +2,10 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
+
+@media (max-width: 980px) {
+  .intro__grid-wrapper {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+}
