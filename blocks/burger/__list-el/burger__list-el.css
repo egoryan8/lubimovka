@@ -1,0 +1,12 @@
+.burger__list-el {
+    font-family: 'Neue Machina';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin: 0 0 25px 55px;
+}
+
+.burger__list-el:last-child {
+    margin: 0 0 70px 55px;
+}

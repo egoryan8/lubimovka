@@ -1,0 +1,14 @@
+.burger__close_is-active:before,
+.burger__close_is-active:after {
+    top: 50%;
+}
+
+.burger__close_is-active:before {
+    transform: rotate(-45deg) translate(0px, 50%);
+    left: 24px;
+}
+
+.burger__close_is-active:after {
+    transform: rotate(45deg) translate(0px, 50%);
+    left: 26px;
+}

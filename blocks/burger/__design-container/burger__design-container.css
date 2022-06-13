@@ -1,0 +1,5 @@
+.burger__design-container {
+    display: flex;
+    max-width: 200px;
+    margin: 0 0 0 25px;
+}

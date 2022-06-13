@@ -1,0 +1,5 @@
+.burger__body {
+    min-height: 100%;
+    max-width: 1440px;
+    margin: auto;
+}

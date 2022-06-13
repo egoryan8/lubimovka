@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_type/root_type_scroll-locked.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 
@@ -75,3 +76,33 @@
 @import url(../blocks/description/__paragraph/description__paragraph.css);
 @import url(../blocks/description/__text-wrapper/description__text-wrapper.css);
 @import url(../blocks/description/__title/description__title.css);
+
+/*burger imports*/
+
+@import url(../blocks/burger/__body/burger__body.css);
+@import url(../blocks/burger/__close/burger__close.css);
+@import url(../blocks/burger/__content/burger__content.css);
+@import url(../blocks/burger/__copyright-container/burger__copyright-container.css);
+@import url(../blocks/burger/__copyright/burger__copyright.css);
+@import url(../blocks/burger/__design-container/burger__design-container.css);
+@import url(../blocks/burger/__design-link/burger__design-link.css);
+@import url(../blocks/burger/__design/burger__design.css);
+@import url(../blocks/burger/__develope-container/burger__develope-container.css);
+@import url(../blocks/burger/__develope/burger__develope.css);
+@import url(../blocks/burger/__link/burger__link.css);
+@import url(../blocks/burger/__list-el/burger__list-el.css);
+@import url(../blocks/burger/__list/burger__list.css);
+@import url(../blocks/burger/__logo/burger__logo.css);
+@import url(../blocks/burger/__share-link/burger__share-link.css);
+@import url(../blocks/burger/__social-link/burger__social-link.css);
+@import url(../blocks/burger/__share-container/burger__share-container.css);
+@import url(../blocks/burger/__social-container/burger__social-container.css);
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__develope-link/burger__develope-link.css);
+@import url(../blocks/burger/__copyright-link/burger__copyright-link.css);
+@import url(../blocks/burger/__design-logo/burger__design-logo.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__arrow/burger__arrow.css);
+@import url(../blocks/burger/__close/_is-active/burger__close_is-active.css);
+@import url(../blocks/burger/__line/_is-active/burger__line_is-active.css);
+@import url(../blocks/burger/_is-active/burger_is-active.css);

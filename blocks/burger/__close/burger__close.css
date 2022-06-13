@@ -1,0 +1,31 @@
+.burger__close {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    background: #242424;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
+    top: 0;
+    right: -69px;
+}
+
+.burger__close:after, 
+.burger__close:before {
+    content: '';
+    background-color: #fff;
+    width: 20px;
+    height: 2px;
+    left: 25px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+}
+
+.burger__close:before {
+    top: calc(50% - 5px);
+}
+
+.burger__close:after {
+    bottom: calc(50% - 7px);
+}

@@ -1,0 +1,10 @@
+.burger__copyright {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 10px 0;
+}
+
+.burger__copyright:last-child {
+    margin: 0 0 60px 0;
+}
