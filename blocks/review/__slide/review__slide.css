@@ -5,6 +5,8 @@
   opacity: .4;
   width: 100%;
   flex-shrink: 0;
+  margin-right: 30px;
+  transition: opacity 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
