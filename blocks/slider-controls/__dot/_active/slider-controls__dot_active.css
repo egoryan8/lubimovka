@@ -1,0 +1,6 @@
+.slider-controls__dot_active {
+  width: 8px;
+  height: 8px;
+  border: none;
+  background-color: #242424;
+}

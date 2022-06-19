@@ -1,8 +1,8 @@
 const sliderContainer = document.querySelector('.review__inner');
-const constrolButtons = sliderContainer.querySelectorAll('.slider-controls__button');
+const [ prevBtn, nextBtn ] = sliderContainer.querySelectorAll('.slider-controls__button');
 const slider = sliderContainer.querySelector('.review__slides');
 const slides = slider.children;
-const [ prevBtn, nextBtn ] = constrolButtons; // убрать
+const dotsContainer = sliderContainer.querySelector('.slider-controls__dots');
 
 const calculateShiftStep = () => slider.offsetWidth + (slider.scrollWidth - slides.length * slider.offsetWidth) / (slides.length - 1);
 
@@ -50,14 +50,40 @@ const highlightActiveSlide = () => {
   prevSlide.classList.remove('review__slide_active');
 };
 
-constrolButtons.forEach(btn => {
-  btn.addEventListener('click', function() {
+const highlightActiveDot = () => {
+  const activeDot = dotsContainer.children[currentSlide];
+  const prevDot = dotsContainer.querySelector('.slider-controls__dot_active');
+  activeDot.classList.add('slider-controls__dot_active');
+  prevDot.classList.remove('slider-controls__dot_active');
+};
+
+const setChangeSlides = (button) => {
+  button.addEventListener('click', function() {
     const direction = this.dataset.direction;
     setSliderShift(direction);
     checkEndPosition();
     highlightActiveSlide();
+    highlightActiveDot();
   });
-});
+};
+
+const createDots = () => {
+  const dots = [];
+  for (let i = 0; i < slides.length; i += 1) {
+    const dot = document.createElement('div');
+    dot.classList.add('slider-controls__dot');
+    dots.push(dot);
+  }
+  dots[currentSlide].classList.add('slider-controls__dot_active');
+  
+  return dots;
+};
+
+console.log(createDots());
+dotsContainer.append(...createDots());
+
+setChangeSlides(prevBtn);
+setChangeSlides(nextBtn);
+checkEndPosition();
 
 window.addEventListener('resize', updateShiftParameters);
-checkEndPosition();

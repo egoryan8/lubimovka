@@ -36,6 +36,9 @@
 @import url(../blocks/slider-controls/slider-controls.css);
 @import url(../blocks/slider-controls/__button/slider-controls__button.css);
 @import url(../blocks/slider-controls/__button/_type/slider-controls__button_type_prev.css);
+@import url(../blocks/slider-controls/__dots/slider-controls__dots.css);
+@import url(../blocks/slider-controls/__dot/slider-controls__dot.css);
+@import url(../blocks/slider-controls/__dot/_active/slider-controls__dot_active.css);
 @import url(../blocks/review/__slides/review__slides.css);
 @import url(../blocks/review/__slide/review__slide.css);
 @import url(../blocks/review/__slide/_active/review__slide_active.css);

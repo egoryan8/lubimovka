@@ -1,0 +1,8 @@
+.slider-controls__dot {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}

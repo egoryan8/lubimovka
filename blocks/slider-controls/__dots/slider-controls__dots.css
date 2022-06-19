@@ -1,0 +1,5 @@
+.slider-controls__dots {
+  margin-right: 30px;
+  display: flex;
+  column-gap: 16px;
+}

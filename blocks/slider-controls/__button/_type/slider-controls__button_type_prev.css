@@ -1,5 +1,6 @@
 .slider-controls__button_type_prev {
   transform: scale(-1);
+  margin-right: 20px;
 }
 
 .slider-controls__button_type_prev:hover {
