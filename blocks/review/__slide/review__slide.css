@@ -1,0 +1,14 @@
+.review__slide {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 55px 88px 72px;
+  opacity: .4;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .review__slide {
+    padding: 55px 44px 72px;
+  }
+}

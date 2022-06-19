@@ -1,0 +1,9 @@
+.review__slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+  align-items: flex-start;
+  width: 100%;
+}

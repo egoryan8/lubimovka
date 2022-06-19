@@ -1,0 +1,7 @@
+.slider-controls__button_type_prev {
+  transform: scale(-1);
+}
+
+.slider-controls__button_type_prev:hover {
+  transform: scale(-1.07);
+}

@@ -28,3 +28,16 @@
 @import url(../blocks/photos/__image/photos__image.css);
 @import url(../blocks/photos/__title/photos__title.css);
 @import url(../blocks/photos/__wrapper/photos__wrapper.css);
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/review/review.css);
+@import url(../blocks/review/__inner/review__inner.css);
+@import url(../blocks/review/__header/review__header.css);
+@import url(../blocks/slider-controls/slider-controls.css);
+@import url(../blocks/slider-controls/__button/slider-controls__button.css);
+@import url(../blocks/slider-controls/__button/_type/slider-controls__button_type_prev.css);
+@import url(../blocks/review/__slides/review__slides.css);
+@import url(../blocks/review/__slide/review__slide.css);
+@import url(../blocks/review/__slide/_active/review__slide_active.css);
+@import url(../blocks/review/__slide-title-img/review__slide-title-img.css);
+@import url(../blocks/review/__slide-article/review__slide-article.css);

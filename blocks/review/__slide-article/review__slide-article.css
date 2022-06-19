@@ -1,0 +1,11 @@
+.review__slide-article {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #242424;
+}

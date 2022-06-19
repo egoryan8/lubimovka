@@ -1,0 +1,11 @@
+.review__inner {
+  margin: 0 auto;
+  max-width: 718px;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .review__inner {
+    width: 100%;
+  }
+}
